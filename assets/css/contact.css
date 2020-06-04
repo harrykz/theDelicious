@@ -1,0 +1,154 @@
+
+
+/* Contact Page Settings */
+.image_bg{
+    background-image: url('../images/Asset\ 153.png');
+}
+
+.contact_banner{
+    margin-top: 50px;
+}
+
+.contact_us_div_holder{
+    padding: 30px 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact_pic_holder{
+    text-align: right;
+}
+
+.contact_us_heading{
+    color: #fff;
+}
+
+.contact_us_heading_two{
+    color: #fcb140;
+}
+
+.contact_us_heading, .contact_us_heading_two{
+    margin-bottom: 0px;
+    line-height: 0.85;
+    text-transform: uppercase;
+}
+
+.contact_us_banner_img{
+    width: 100%;
+    margin-right: -20px;
+}
+
+/* Contact Form */
+.contact_us_form{
+    margin-top: 50px;
+}
+
+.contact_us_form_heading{
+    text-align: center;
+    width: 100%;
+}
+
+.this_heading{
+    color: #fcb140;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.margin_here{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.extra_class_cntct{
+    color: #fff !important;
+    background-color: #000 !important;
+    border: 0px !important;
+}
+
+.extra_class_cntct::placeholder{
+    color: #fcb140 !important;
+}
+
+.subscribe_btn{
+    text-align: center;
+    width: 100%;
+}
+
+.send_link_btn{
+    background-color: #000;
+    border-radius: 0px !important;
+    color: #fcb140;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.send_link_btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(min-width: 320px){
+
+    .contact_us_div_holder{
+        align-items: center;
+    }
+
+    .contact_us_heading{
+        font-size: 55px;
+        margin-left: 0px;
+    }
+
+    .contact_us_heading_two{
+        font-size: 38px;
+    }
+
+    .contact_us_banner_img{
+        height: 200px;
+    }
+
+    .extra_marg_cntct{
+        margin-top: 15px;
+    }
+
+}
+
+@media(min-width: 992px){
+
+    .contact_us_div_holder{
+        align-items: flex-start;
+    }
+
+    .contact_us_heading{
+        font-size: 80px;
+        margin-left: 0px;
+    }
+
+    .contact_us_heading_two{
+        font-size: 55px;
+    }
+
+    .contact_us_banner_img{
+        height: 300px;
+    }
+
+    .extra_marg_cntct{
+        margin-top: 0px;
+    }
+}
+
+
+@media(min-width: 1200px){
+   
+    .contact_us_heading{
+        font-size: 104px;
+        margin-left: 2px;
+    }
+
+    .contact_us_heading_two{
+        font-size: 70px;
+    }
+
+}

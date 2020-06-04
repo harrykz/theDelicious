@@ -1,0 +1,54 @@
+
+/* About page setting */
+.janee_jack{
+    background-image: url('../images/Asset\ 153.png');
+    background-size: cover;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+.janee_jack_heading{
+    color: #fcb140;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.image_box_janee_jack{
+    text-align: center;
+}
+
+.owners_img{
+    border: 4px solid #fcb140;
+}
+
+.janee_jack_text{
+    color: #fff;
+    text-align: justify;
+    display: inline-block;
+}
+
+/*********************************** MEDIA QUERIES ************************************/
+
+@media(min-width: 320px){
+
+    .janee_jack_text, .owners_img{
+        width: 90%;
+    }
+    
+}
+@media(min-width: 576px){
+
+}
+@media(min-width: 768px){
+
+}
+@media(min-width: 992px){
+
+    .janee_jack_text, .owners_img{
+        width: 50%;
+    }
+
+}
+@media(min-width: 1200px){
+
+}

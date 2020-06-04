@@ -1,0 +1,101 @@
+
+
+/* Main Banner Settings */
+.ingredients_bg{
+    background-image: url('../images/Asset\ 153.png');
+    background-size: cover;
+    margin-top: 50px;
+    padding: 60px 0px;
+}
+
+/* Left One CSS */
+.ingredients_box_holder{
+    border: 2px solid #fcb140;
+    height: 100%;
+}
+
+.box_One{
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+.img_thumbnail{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fcb140;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+.box_One_text{
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.box_Two{
+    border-top: 1px solid #fcb140;
+    border-left: 0px solid #fcb140;
+    border-right: 0px solid #fcb140;
+    border-bottom: 0px solid #fcb140;
+    padding: 20px 15px;
+    height: 85%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box_Two_heading{
+    color: #fcb140;
+}
+
+.ingredients_list{
+    list-style-type: "\2014";
+    /*padding-left: 20px;*/
+}
+
+.ingredients_li{
+    color: #fff;
+    padding: 10px 15px;
+}
+
+/* Right One CSS */
+.right_box_heading, .steps{
+    color: #fcb140;
+}
+
+.right_box_heading{
+    font-size: 45px;
+}
+
+.steps{
+    font-size: 20px;
+}
+
+.step_text{
+    color: #fff;
+}
+
+/*********************************** MEDIA QUERIES ************************************/
+
+@media(min-width: 320px){
+
+}
+
+@media(min-width: 576px){
+
+}
+
+@media(min-width: 768px){
+
+}
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 1200px){
+
+}
